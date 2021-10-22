@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Cigarette Calculator</title>
+      <link rel="stylesheet" href="./style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <form class="form">
+            <h2>How many cigarettes do you smoke per day?</h2>
+            <input class="input1" type="number" placeholder="Enter number of cigarettes" />
+            <h2>How many cigarettes are in a pack?</h2>
+            <input class="input2" type="number" placeholder="Enter number of cigarettes" />
+            <h2>How much do you pay per pack?</h2>
+            <div class="money">
+               <p>$</p>
+               <input class="input3" type="number" placeholder="0.00" />
+            </div>
+            <h2>How many years have you been smoking?</h2>
+            <input class="input4" type="number" placeholder="Enter number of years" />
+         </form>
+         <div class="results">
+            <h2>Results</h2>
+            <table>
+               <tr>
+                  <th>After...</th>
+                  <th>You'll Save</th>
+               </tr>
+               <tr>
+                  <td>1 day</td>
+                  <td id="day">-</td>
+               </tr>
+               <tr>
+                  <td>1 Week</td>
+                  <td id="week">-</td>
+               </tr>
+               <tr>
+                  <td>1 Month</td>
+                  <td id="month">-</td>
+               </tr>
+               <tr>
+                  <td>1 Year</td>
+                  <td id="year">-</td>
+               </tr>
+               <tr>
+                  <td>10 Years</td>
+                  <td id="years10">-</td>
+               </tr>
+               <tr>
+                  <td>20 Years</td>
+                  <td id="years20">-</td>
+               </tr>
+            </table>
+            <p class="para"></p>
+            <button type="button" class="btn">Calculate</button>
+            <button type="button" class="btn2">Reset</button>
+         </div>
+      </div>
+      <script src="main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 30px;
+   background-color: cornflowerblue;
+}
+
+form h2 {
+   color: #222222;
+   padding: 20px 0 5px 0;
+}
+input {
+   padding: 8px 12px;
+   border: 2px solid gray;
+   outline: none;
+   border-radius: 5px;
+}
+input::placeholder {
+   font-size: 12px;
+}
+
+.money {
+   display: flex;
+   align-items: center;
+   border: 2px solid gray;
+   border-radius: 5px;
+   width: max-content;
+   overflow: hidden;
+}
+.money > p {
+   font-size: 18px;
+   background: #cccccc;
+   padding: 5.5px 10px;
+}
+.money > input {
+   border: none;
+   border-radius: 0;
+   width: 160px;
+}
+
+.results h2 {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+}
+th {
+   width: 200px;
+}
+
+td,
+th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+
+tr:nth-child(even) {
+   background-color: #dddddd;
+}
+
+button {
+   padding: 10px 20px;
+   border: 2px solid #fff;
+   margin-top: 20px;
+   border-radius: 5px;
+   background: transparent;
+   cursor: pointer;
+   color: #fff;
+   text-transform: uppercase;
+   outline: none;
+   margin-right: 5px;
+}
+
+button:hover {
+   background: rgb(64, 107, 224);
+}
+
+.para {
+   margin-top: 15px;
+   font-size: 18px;
+}
