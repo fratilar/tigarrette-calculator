@@ -3,6 +3,12 @@
    padding: 0;
    box-sizing: border-box;
 }
+body {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 .container {
    width: 80%;
@@ -90,4 +96,18 @@ button:hover {
 .para {
    margin-top: 15px;
    font-size: 18px;
+}
+
+@media (max-width: 1080px) {
+   .container {
+      flex-direction: column;
+      margin: 20px 0;
+      font-size: small;
+   }
+   .results {
+      padding-top: 30px;
+   }
+   .input {
+      width: 100%;
+   }
 }
